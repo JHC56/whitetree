@@ -6,7 +6,7 @@ so we can discuss it.
 ## Setup
 
 ```
-git clone https://github.com/JHC56/whitetree.git
+git clone https://github.com/whitetree-dev/whitetree.git
 cd whitetree
 pip install -e .[test]
 ```
