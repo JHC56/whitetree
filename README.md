@@ -1,9 +1,9 @@
+# whitetree
+
+
 <p align="center"><img src="docs/img/logo.png" width="100%" alt="whitetree"></p>
 
 <p align="center"><strong>Exact nearest-neighbour search for sensor data. Updates without rebuilds.</strong></p>
-
-
-# whitetree
 
 whitetree finds the records that look most like a new one. It is built for records that
 are a few numbers with different units that tend to move together, like (temperature,
