@@ -33,7 +33,7 @@ test = ["scikit-learn"]
 bench = ["faiss-cpu", "scikit-learn"]
 
 [project.urls]
-Homepage = "https://github.com/JHC56/whitetree"
+Homepage = "https://github.com/whitetree-dev/whitetree"
 
 [tool.setuptools.packages.find]
 where = ["src"]
