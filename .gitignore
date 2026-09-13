@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.ruff_cache/
+
+# UCI datasets for the benchmarks (optional; see benchmarks/uci_data.py) and their outputs
+data/
+benchmarks/results/
