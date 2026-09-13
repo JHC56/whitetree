@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "whitetree"
+version = "0.1.0"
+description = "Exact Mahalanobis nearest neighbour search with insert and delete"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{name = "Juhyuk Choi"}]
+keywords = ["nearest neighbor", "knn", "mahalanobis", "kd-tree", "dynamic index"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.9",
+]
+
+[project.optional-dependencies]
+test = ["scikit-learn"]
+bench = ["faiss-cpu", "scikit-learn"]
+
+[project.urls]
+Homepage = "https://github.com/JHC56/whitetree"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
