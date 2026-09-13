@@ -1,3 +1,8 @@
+<p align="center"><img src="docs/img/logo.png" width="380" alt="whitetree"></p>
+
+<p align="center">Exact nearest-neighbour search for sensor data. Updates without rebuilds</p>
+
+
 # whitetree
 
 whitetree finds the records that look most like a new one. It is built for records that
