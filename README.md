@@ -1,6 +1,6 @@
-<p align="center"><img src="docs/img/logo.png" width="380" alt="whitetree"></p>
+<p align="center"><img src="docs/img/logo.png" width="100%" alt="whitetree"></p>
 
-<p align="center">Exact nearest-neighbour search for sensor data. Updates without rebuilds</p>
+<p align="center"><strong>Exact nearest-neighbour search for sensor data. Updates without rebuilds.</strong></p>
 
 
 # whitetree
