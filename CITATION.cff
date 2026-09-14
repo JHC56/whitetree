@@ -4,7 +4,7 @@ title: "whitetree: exact Mahalanobis nearest-neighbour search with insert and de
 authors:
   - family-names: Choi
     given-names: Juhyuk
-version: 0.1.0
+version: 0.1.1
 date-released: 2026-09-13
 license: MIT
 repository-code: "https://github.com/whitetree-dev/whitetree"
