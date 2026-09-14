@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "whitetree"
-version = "0.1.0"
+version = "0.1.1"
 description = "Exact Mahalanobis nearest neighbour search with insert and delete"
 readme = "README.md"
 license = "MIT"
