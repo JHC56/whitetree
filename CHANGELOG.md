@@ -14,3 +14,9 @@ First release.
 - Single-point and small-batch queries use the largest run's k-th distance as a bound for
   the other runs; one-run indexes with nothing deleted call `cKDTree.query` directly.
 - Tombstoned points are dropped whenever their run is rebuilt by a later insert.
+
+## 0.1.1
+
+- First release on PyPI. `pip install whitetree` now works.
+- README: use case image in the intro.
+- No code changes.
