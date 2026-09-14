@@ -13,4 +13,4 @@ from .dynamic_kdtree import DynamicKDTree
 from .mahalanobis import MahalanobisIndex
 
 __all__ = ["MahalanobisIndex", "DynamicKDTree"]
-__version__ = "0.1.0"
+__version__ = "0.1.1"
