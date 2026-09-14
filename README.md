@@ -62,7 +62,7 @@ python tests/test_concurrency.py
 ## Usage
 
 ```
-pip install git+https://github.com/whitetree-dev/whitetree.git
+pip install whitetree
 ```
 
 ```python
