@@ -8,6 +8,8 @@
 
 whitetree finds the records that look most like a new one. It is built for records that are a few numbers with different units that tend to move together, like (temperature, pressure, flow) from a sensor.
 
+<p align="center"><img src="docs/img/use_case.png" width="100%" alt="Where whitetree fits: equipment anomaly detection, robotic repetitive tasks, data deduplication during collection, battery pack monitoring"></p>
+
 Plain Euclidean distance gives wrong neighbours on sensor records. The column with the biggest numbers wins, so pressure in pascals decides the answer and temperature barely counts. Scaling each column fixes the units but ignores the fact that temperature and pressure rise and fall together. Mahalanobis distance corrects for both the units and the correlation, and it is the standard distance for correlated measurements. Using Mahalanobis distance in Python is the hard part. scikit-learn makes you work out the inverse covariance matrix and pass it in yourself, and every tree index in scikit-learn and scipy has to be built again from scratch each time a new record arrives.
 
 whitetree works out the covariance for you, gives exact answers (the same as a `scipy.spatial.cKDTree` built on the same data), and lets you add and remove records whenever you like without rebuilding anything.
